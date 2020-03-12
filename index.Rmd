@@ -1,0 +1,14 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="images/mloranty.jpg" style="width:25%; border:5px solid; margin-right: 10px" align="left">
+
+I am an Associate Professor in the [Department of Geography](https://www.colgate.edu/academics/departments-programs/department-geography) at [Colgate University](https://www.colgate.edu/). I like to use field observations along with imagery from drones and satellites to answer questions related to changing vegetation structure and function. Most of my recent research has focused on how forest recovery after fire in Siberia can feed back to climate change, and also on how changes in Arctic vegetation influence permafrost. 
+
+
+
+
+
+My full CV is available [here](files/Zabor_CV_2017_Q4.pdf).
