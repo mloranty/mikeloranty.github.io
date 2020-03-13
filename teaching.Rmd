@@ -25,4 +25,8 @@ The links below provide access to homework exercises.<br>
 [Lab2: Manipulating Matrices](https://mloranty.github.io/GEOG338/Lab2)<br>
 [Lab3: Manipulating Time Series Data](https://mloranty.github.io/GEOG338/Lab3)<br>
 [Lab4: Data Cleaning](https://mloranty.github.io/GEOG338/Lab4)<br>
+<<<<<<< HEAD
 [Lab5: Answering Questions with Data](https://mloranty.github.io/GEOG338/Lab5)<br>
+=======
+[Lab5: Answering Research Questions](https://mloranty.github.io/GEOG338/Lab5)<br>
+>>>>>>> 70153d2173b9e47202f2139d673decd5020acd75
