@@ -3,5 +3,26 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
+<br>
+<br>
 
-Teaching...
+#### Teaching
+I teach a fairly wide range of courses that cover topics including GIS and Remote Sensing, Data Analysis, as well as Introductory and Advanced Physical Geography. In addition I have been fortunate to lead several international off campus courses ranging in length from several weeks to an entire semester. Currently I am working with members of the lab to integrate data science tools and techniques such as [GitHub](https://github.com/) and [R](https://www.r-project.org/) into our cirriculum.<br> 
+<br>
+
+##### GEOG250 - Research Methods in Geography
+The links below provide access to lecture notes with code examples, and accompanying homework assignments.<br>
+[Topic 1: Introduction to R](https://mloranty.github.io/GEOG250/01_Introduction_to_R.html)<br>
+[Topic 2: Probability](https://mloranty.github.io/GEOG250/02_probability)<br>
+[Topic 3: Statistical Inference](https://mloranty.github.io/GEOG250/03_inference)<br>
+[Topic 4: Correlation](https://mloranty.github.io/GEOG250/04_correlation)<br>
+[Topic 5: Regression](https://mloranty.github.io/GEOG250/05_regression.html)<br>
+<br>
+
+##### GEOG338 - Earth System Ecology
+The links below provide access to homework exercises.<br>
+[Lab1: Introduction to R](https://mloranty.github.io/GEOG338/Lab1)<br>
+[Lab2: Manipulating Matrices](https://mloranty.github.io/GEOG338/Lab2)<br>
+[Lab3: Manipulating Time Series Data](https://mloranty.github.io/GEOG338/Lab3)<br>
+[Lab4: Data Cleaning](https://mloranty.github.io/GEOG338/Lab4)<br>
+[Lab5: Answering Research Questions](https://mloranty.github.io/GEOG338/Lab5)<br>
