@@ -1,0 +1,15 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+You can contact me using the information below: 
+
+
+307 Ho Science Center<br>
+13 Oak Dr<br>
+Hamilton, NY 13346<br>
++1 315-228-6057<br>
+mloranty@colgate.edu<br>
+
+Or connect via Github, Twitter or Instagram (links above).

@@ -15,9 +15,9 @@ navbar:
     - icon: fa-twitter fa-lg
       href: https://twitter.com/mloranty
     - icon: fa-instagram fa-lg
-      href: https://twitter.com/mloranty
+      href: https://www.instagram.com/mikeloranty
 #    - icon: fa-linkedin fa-lg
-#      href: https://www.linkedin.com/in/emily-zabor-59b902b7/
+#      href: www.linkedin.com/in/michael-loranty-04a46633/
 output:
   html_document:
     theme: paper
