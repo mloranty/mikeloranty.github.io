@@ -11,26 +11,40 @@
 
 
 
-<title>publications.utf8</title>
+<title>publications.knit</title>
 
+<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -43,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -79,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -99,40 +84,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 64px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h2 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h3 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h4 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h5 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
-.section h6 {
-  padding-top: 69px;
-  margin-top: -69px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +118,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +130,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -183,10 +141,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +169,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -311,7 +281,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -319,13 +289,19 @@ $(document).ready(function () {
 </div>
 
 
+<div id="section" class="section level2">
+<h2>—</h2>
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <p>Researcher ID: <a href="http://www.researcherid.com/rid/A-1518-2009" class="uri">http://www.researcherid.com/rid/A-1518-2009</a><br> <em>Colgate undergraduate advisee</em><br> <strong><em>Colgate Postdoctoral advisee</em></strong></p>
-<p>[44] Walker, X., Alexander, H.D., Berner, L. Boyd, M., <strong>Loranty, M.M.</strong>, Natali, S.M., and Mack, M.C. Accepted Positive response of tree productivity to warming is reversed by increased tree density at Arctic treeline Canadian Journal of Forest Research</p>
-<p>[43] Paulson, A.K., Peña, H., Alexander, H.D., Davydov, S.P., <strong>Loranty, M.M.</strong>, Mack, M.C., and Natali, S.M. Accepted Understory plant diversity and composition across a post-fire tree density gradient in a Siberian Arctic boreal forest Canadian Journal of Forest Research</p>
+<p>[48] <strong>Loranty, M.M.</strong>, Alexander, H.D., Kropp, H., <strong><em>Talucci, A.C.</em></strong>, and Webb, E.E., In Press. Siberian ecosystems as drivers of cryospheric climate feedbacks in the terrestrial Arctic. Frontiers in Climate.</p>
+<p>[47] Muzalevskiy, K., Ruzicka, R., Roy, A., <strong>Loranty, M.M.</strong>, Vasiliev, A. 2021. The classification of frozen/thawed surface state of Arctic soil based on SMAP and GCOM-W1 brightness temperature observations at 1.4 GHz and 6.9 GHz. Remote Sensing Letters 12(11), 1073-1081. <a href="https://doi.org/10.1080/2150704X.2021.1963497" class="uri">https://doi.org/10.1080/2150704X.2021.1963497</a></p>
+<p>[46] Webb, E.E., <strong>Loranty, M.M.</strong>, and Lichstein, J.W., 2021. Surface water, vegetation and fire as drivers of the Arctic-Boreal albedo feedback Environmental Research Letters 16(8), 084046. <a href="https://doi.org/10.1088/1748-9326/ac14ea" class="uri">https://doi.org/10.1088/1748-9326/ac14ea</a></p>
+<p>[45] Walker, X., Alexander, H.D., Berner, L. Boyd, M., <strong>Loranty, M.M.</strong>, Natali, S.M., and Mack, M.C. 2021. Positive response of tree productivity to warming is reversed by increased tree density at Arctic treeline. Canadian Journal of Forest Research, 51(9), 1323-1338 <a href="https://doi.org/10.1139/cjfr-2020-0466" class="uri">https://doi.org/10.1139/cjfr-2020-0466</a></p>
+<p>[44] Poyatos, R., and 100+ others including M.M. Loranty. 2021. Global transpiration from sap flow measurements: the SAPFLUXNET database. Earth System Science Data, 13(6), 2607–2649. <a href="https://doi.org/10.5194/essd-13-2607-2021" class="uri">https://doi.org/10.5194/essd-13-2607-2021</a></p>
+<p>[43] Paulson, A.K., Peña, H., Alexander, H.D., Davydov, S.P., <strong>Loranty, M.M.</strong>, Mack, M.C., and Natali, S.M. 2021. Understory plant diversity and composition across a post-fire tree density gradient in a Siberian Arctic boreal forest 2021. Canadian Journal of Forest Research. 51(5): 720-731. <a href="https://doi.org/10.1139/cjfr-2020-0483" class="uri">https://doi.org/10.1139/cjfr-2020-0483</a></p>
 <p>[42] <strong><em>Kropp, H.</em></strong> <strong>Loranty, M.M.</strong> and 50+ others. 2021. Shallow soils are warmer under trees and small shrubs across Arctic and Boreal ecosystems Environmental Research Letters 16(1), 015001. doi.org/10.1088/1748-9326/abc994</p>
-<p>[41] <em>McCulloch, L.A.</em>, <strong><em>Kropp, H.</em></strong>, Kholodov, A.K., Cardelus, C.L., Natali, S.M, and <strong>Loranty, M.M.</strong> 2020. Variation in fine root characteristics and nutrient dynamics across Alaskan ecosystems. Ecosystems, pp1-16</p>
-<p>[40] <strong><em>Talucci, A.C.</em></strong>, <em>Forbath, E.</em>, Kropp, H., Alexander, H.D., DeMarco, J., Paulson, A.K., Zimov, N.S., Zimov, S. and <strong>Loranty, M.M.</strong>, 2020. Evaluating Post-Fire Vegetation Recovery in Cajander Larch Forests in Northeastern Siberia Using UAV Derived Vegetation Indices. Remote Sensing, 12(18), p.2970.</p>
+<p>[41] <em>McCulloch, L.A.</em>, <strong><em>Kropp, H.</em></strong>, Kholodov, A.K., Cardelus, C.L., Natali, S.M, and <strong>Loranty, M.M.</strong> 2020. Variation in fine root characteristics and nutrient dynamics across Alaskan ecosystems. Ecosystems, pp1-16. <a href="https://doi.org/10.1007/s10021-020-00583-8" class="uri">https://doi.org/10.1007/s10021-020-00583-8</a></p>
+<p>[40] <strong><em>Talucci, A.C.</em></strong>, <em>Forbath, E.</em>, Kropp, H., Alexander, H.D., DeMarco, J., Paulson, A.K., Zimov, N.S., Zimov, S. and <strong>Loranty, M.M.</strong>, 2020. Evaluating Post-Fire Vegetation Recovery in Cajander Larch Forests in Northeastern Siberia Using UAV Derived Vegetation Indices. Remote Sensing, 12(18), p.2970. <a href="https://doi.org/10.3390/rs12182970" class="uri">https://doi.org/10.3390/rs12182970</a></p>
 <p>[39] McLauchlan, K. K., P. E. Higuera, J. Miesel, B. M. Rogers, J. Schweitzer, J. K. Shuman, A. Tepley, J. M. Varner, T. T. Veblen, S. A. Adalsteinsson, J. K. Balch, P. Baker, E. Batllori, E. Bigio, P. Brando, M. Cattau, M. L. Chipman, J. Coen, R. Crandall, L. Daniels, N. Enright, W. S. Gross, B. J. Harvey, J. A. Hatten, S. Hermann, R. E. Hewitt, L. N. Kobziar, J. B. Landesmann, <strong>M. M. Loranty</strong>, S. Y. Maezumi, L. Mearns, M. Moritz, J. A. Myers, J. G. Pausas, A. F. A. Pellegrini, W. J. Platt, J. Roozeboom, H. Safford, F. Santos, R. M. Scheller, R. L. Sherriff, K. G. Smith, M. D. Smith, and A. C. Watts. In Press, Fire as a fundamental ecological process: research advances and frontiers. Journal of Ecology. 108(5), pp.2047-2069</p>
 <p>[38] Myers-Smith, I., Kerby, J. T., Phoenix, G. K., Bjerke, J. W., Epstein, H. E., Assmann, J. J., John, C., Andreu-Hayles, L., Angers-Blodin, S., Beck, P.S.A., Berner, L.T., Bhatt, U.S., Bjorkman, A., Blok, D., Bryn, A., Christiansen, C.T., Cornelissen, J.H.C., Cunliffe, A.M., Elmendorf, S.C., Forbes, B.C., Goetz, S.J., Hollister, R.D., de Jong, R., <strong>Loranty, M.M.</strong>, Macias-Fauria, M., Maseyk, K., Normand, S., Olofsson, J., Parker, T.C., Parmentier, F.W., Post, E.S., Schaepman-Strub, G., Stordal, F., Sullivan, P., Thomas, H.J.D., Tommervik, H., Treharne, T., Tweedie, C.E., Walker, D.A., Wilmking, M., and Wipf, S. 2020. Complexity revealed in the greening of the Arctic. Nature Climate Change, 10(2), pp.106-117. <a href="doi:10.1038/s41558-019-0688-1" class="uri">doi:10.1038/s41558-019-0688-1</a></p>
 <p>[37] Davydov, S.P., Davydova, A., Schelchkova, M., Makarevich, R., Fyodorov-Dayvdov, D., <strong>Loranty, M.M.</strong>, Boeskorov, G. 2020. Essential mineral nutrients of the high-latitude steppe vegetation and the herbivores of mammoth fauna. Quaternary Science Reviews, 228, p.106073. <a href="doi:10.1016/j.quascirev.2019.106073" class="uri">doi:10.1016/j.quascirev.2019.106073</a></p>
@@ -365,6 +341,7 @@ $(document).ready(function () {
 <p>[3] <strong>Loranty, M.M.</strong>, Mackay, D.S., Ewers, B.E., Traver, E. and Kruger, E.L., 2010. Contribution of competition for light to within‐species variability in stomatal conductance. Water Resources Research, 46(5). <a href="doi:10.1029/2009WR008125" class="uri">doi:10.1029/2009WR008125</a>.</p>
 <p>[2] Traver, E., Ewers, B.E., Mackay, D.S., and <strong>Loranty, M.M.</strong>, 2010. Tree transpiration varies spatially in response to atmospheric but not edaphic conditions. Functional Ecology, 24, 273-282. doi: 10.1111/j.1365-2435.2009.01657.x</p>
 <p>[1] <strong>Loranty, M.M.</strong>, Mackay, D.S., Ewers, B.E., Adelman, J.D. and Kruger, E.L., 2008. Environmental drivers of spatial variation in whole‐tree transpiration in an aspen‐dominated upland‐to‐wetland forest gradient. Water Resources Research, 44(2). <a href="doi:10.1029/2007WR006272" class="uri">doi:10.1029/2007WR006272</a>.</p>
+</div>
 
 
 
@@ -375,7 +352,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -393,7 +370,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
