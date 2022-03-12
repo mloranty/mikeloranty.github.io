@@ -7,7 +7,11 @@ Researcher ID: http://www.researcherid.com/rid/A-1518-2009<br>
 *Colgate undergraduate advisee*<br>
 ***Colgate Postdoctoral advisee*** 
 
-[48] **Loranty, M.M.**, Alexander, H.D., Kropp, H., ***Talucci, A.C.***, and Webb, E.E., In Press. Siberian ecosystems as drivers of cryospheric climate feedbacks in the terrestrial Arctic. Frontiers in Climate. 
+[50] Curasi, S. R., Klupar, I., **Loranty, M. M.**, & Rocha, A. V. 2022. An Open-Source, Durable, and Low-Cost Alternative to Commercially Available Soil Temperature Data Loggers. Sensors, 22(1), 148. https://doi.org/10.3390/s22010148
+
+[49] ***Talucci, A.C.***, **Loranty, M.M.**, & Alexander, H.D., 2022. Siberia taiga and tundra fire regimes from 2001-2020. Environmental Research Letters. 17(2) 025001 https://doi.org/10.1088/1748-9326/ac3f07 
+
+[48] **Loranty, M.M.**, Alexander, H.D., Kropp, H., ***Talucci, A.C.***, and Webb, E.E., 2021. Siberian ecosystems as drivers of cryospheric climate feedbacks in the terrestrial Arctic. Frontiers in Climate 3(141) https://doi.org/10.3389/fclim.2021.730943 
 
 [47] Muzalevskiy, K., Ruzicka, R., Roy, A., **Loranty, M.M.**, Vasiliev, A. 2021. The classification of frozen/thawed surface state of Arctic soil based on SMAP and GCOM-W1 brightness temperature observations at 1.4 GHz and 6.9 GHz. Remote Sensing Letters 12(11), 1073-1081. https://doi.org/10.1080/2150704X.2021.1963497
 
