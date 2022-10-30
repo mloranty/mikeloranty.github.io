@@ -7,6 +7,22 @@ Researcher ID: http://www.researcherid.com/rid/A-1518-2009<br>
 *Colgate undergraduate advisee*<br>
 ***Colgate Postdoctoral advisee*** 
 
+[58] Schuur, E. A. G., Abbott, B. W., Commane, R., Ernakovich, J., Euskirchen, E., Hugelius, G., Grosse, G., Jones, M., Koven, C., Leshyk, V., Lawrence, D., **Loranty, M. M.**, Mauritz, M., Olefeldt, D., Natali, S., Rodenhizer, H., Salmon, V., Schädel, C., Strauss, J., … Turetsky, M. 2022. Permafrost and Climate Change: Carbon Cycle Feedbacks From the Warming Arctic. Annual Review of Environment and Resources, 47(1), 343–371. https://doi.org/10.1146/annurev-environ-012220-011847
+
+[57] Kropp, H., **Loranty, M. M.**, Rutter, N., Fletcher, C. G., Derksen, C., Mudryk, L., & Todt, M. 2022. Are vegetation influences on Arctic–boreal snow melt rates detectable across the Northern Hemisphere? Environmental Research Letters, 17(10), 104010. https://doi.org/10.1088/1748-9326/ac8fa7
+
+[56] Webb, E. E., Liljedahl, A. K., Cordeiro, J. A., **Loranty, M. M.**, Witharana, C., & Lichstein, J. W. 2022. Permafrost thaw drives surface water decline across lake-rich regions of the Arctic. Nature Climate Change, 841–846. https://doi.org/10.1038/s41558-022-01455-w
+
+[55] **Loranty, M. M.** 2022. Thermal bridging by Arctic shrubs. Nature Geoscience. 15, 515-516 https://doi.org/10.1038/s41561-022-00977-4
+
+[54] Abbott, B. W., Brown, M., Carey, J. C., Ernakovich, J., Frederick, J. M., Guo, L., Hugelius, G., Lee, R. M., **Loranty, M. M.**, Macdonald, R., Mann, P. J., Natali, S. M., Olefeldt, D., Pearson, P., Rec, A., Robards, M., Salmon, V. G., Sayedi, S. S., Schädel, C., … Zolkos, S. 2022. We Must Stop Fossil Fuel Emissions to Protect Permafrost Ecosystems. Frontiers in Environmental Science, 10. https://www.frontiersin.org/article/10.3389/fenvs.2022.889428
+
+[53] ***Talucci, A.C.***, **Loranty, M.M.**, and Alexander, H.D., 2022. Spatial patterns of unburned refugia in Siberian larch forests during the exceptional 2020 fire season. Global Ecology and Biogeography. 
+
+[52] Hewitt, R., Izbicki, B., Natali, S.M., **Loranty, M.M.**, Alexander, H.D., Walker, X., and Mack, M.C. 2022. Increasing tree density accelerates stand-level nitrogen cycling at the taiga-tundra ecotone in northeastern Siberia. Ecosphere. 13(7), e4175. https://doi.org/10.1002/ecs2.4175
+
+[51] Curasi, S.R., Fetcher, N., Hewitt, R., Lafleur, P., **Loranty, M.M.**, Mack, M.C., May, J., Myers-Smith, I., Natali, S.M., Oberbauer, S., Parker, T., Sonnentag, O., Vargas, S.Z., Wullschleger, S.D., and Rocha A.V. 2022. Range shifts in a foundational sedge induce large Arctic ecosystem carbon losses and gains. Environmental Research Letters. 17(4) 045024 https://doi.org/10.1088/1748-9326/ac6005  
+
 [50] Curasi, S. R., Klupar, I., **Loranty, M. M.**, & Rocha, A. V. 2022. An Open-Source, Durable, and Low-Cost Alternative to Commercially Available Soil Temperature Data Loggers. Sensors, 22(1), 148. https://doi.org/10.3390/s22010148
 
 [49] ***Talucci, A.C.***, **Loranty, M.M.**, & Alexander, H.D., 2022. Siberia taiga and tundra fire regimes from 2001-2020. Environmental Research Letters. 17(2) 025001 https://doi.org/10.1088/1748-9326/ac3f07 

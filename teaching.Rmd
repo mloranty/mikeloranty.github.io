@@ -21,6 +21,11 @@ The links below provide access to lecture notes with code examples, and accompan
 
 ##### GEOG338 - Earth System Ecology
 The links below provide access to homework exercises.<br>
+[Lab1: Introduction to GitHub and R](files/geog331/activity1_tutorial.html)<br>
+<br>
+
+##### GEOG338 - Earth System Ecology
+The links below provide access to homework exercises.<br>
 [Lab1: Introduction to R](https://mloranty.github.io/GEOG338/Lab1)<br>
 [Lab2: Manipulating Matrices](https://mloranty.github.io/GEOG338/Lab2)<br>
 [Lab3: Manipulating Time Series Data](https://mloranty.github.io/GEOG338/Lab3)<br>
